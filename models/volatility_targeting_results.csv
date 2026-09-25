@@ -1,0 +1,2 @@
+target_volatility,cost_bps,days,gross_total_return,net_total_return,CAGR,annualized_volatility,Sharpe,Sortino,max_drawdown,hit_rate,best_day,worst_day,average_turnover,total_turnover,transaction_cost,average_exposure,median_exposure,minimum_exposure,maximum_exposure
+0.25,10.0,411,1.7381754309900477,1.4657262336024628,0.7390679601609451,0.2193610509537546,2.634300194660664,2.82947294887579,-0.12091828682423011,0.5766423357664233,0.057737715898261543,-0.043125208875,0.25518249756342365,104.88000649856713,0.10488000649856713,1.4291480368422647,1.5,1.0,1.5

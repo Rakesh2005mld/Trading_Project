@@ -1,0 +1,100 @@
+{
+    "dataset": {
+        "rows": 4053,
+        "features": 59,
+        "start_date": "2025-01-22",
+        "end_date": "2026-09-02"
+    },
+    "split": {
+        "train_rows": 2833,
+        "validation_rows": 610,
+        "test_rows": 610,
+        "train_end": "2026-03-10",
+        "validation_end": "2026-06-05"
+    },
+    "train": {
+        "rmse": 0.023598073252642567,
+        "mae": 0.015975379858936375,
+        "directional_accuracy": 0.5301800211789622
+    },
+    "validation": {
+        "rmse": 0.022869772192559288,
+        "mae": 0.01677936337026397,
+        "directional_accuracy": 0.5229508196721312
+    },
+    "test": {
+        "rmse": 0.025350348634173625,
+        "mae": 0.0179176410047111,
+        "directional_accuracy": 0.5114754098360655
+    },
+    "lstm_baseline_test": {
+        "rmse": 0.09632359201964048,
+        "mae": 0.09041175050717291,
+        "directional_accuracy": 0.4885245901639344
+    },
+    "cross_sectional_ic": {
+        "hybrid": NaN,
+        "lstm": 0.025931445603576752
+    },
+    "features": [
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume",
+        "return_1d",
+        "return_5d",
+        "return_10d",
+        "return_20d",
+        "return_60d",
+        "log_return_1d",
+        "price_ma20_ratio",
+        "price_ma50_ratio",
+        "price_ma200_ratio",
+        "momentum_5",
+        "momentum_10",
+        "momentum_20",
+        "volatility_10",
+        "volatility_20",
+        "volatility_60",
+        "rsi_14",
+        "macd",
+        "macd_signal",
+        "macd_hist",
+        "volume_change",
+        "volume_ratio_20",
+        "relative_strength_1d",
+        "relative_strength_20d",
+        "beta_60",
+        "vix",
+        "vix_change",
+        "vix_ma10",
+        "vix_ma20",
+        "vix_ratio_ma20",
+        "sector_Consumer",
+        "sector_Energy",
+        "sector_Financials",
+        "sector_Technology",
+        "lstm_prediction",
+        "rag_sentiment_z",
+        "rag_sentiment_rank",
+        "rag_sentiment_decay_z",
+        "rag_confidence_z",
+        "rag_growth_relevance_z",
+        "rag_catalyst_relevance_z",
+        "rag_risk_relevance_z",
+        "rag_outlook_relevance_z",
+        "rag_age_days",
+        "rag_freshness",
+        "ticker_AAPL",
+        "ticker_AMZN",
+        "ticker_AVGO",
+        "ticker_GOOGL",
+        "ticker_JPM",
+        "ticker_META",
+        "ticker_MSFT",
+        "ticker_NVDA",
+        "ticker_TSLA",
+        "ticker_XOM"
+    ]
+}
